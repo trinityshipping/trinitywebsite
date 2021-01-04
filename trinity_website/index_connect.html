@@ -20,12 +20,36 @@
 
 </head>
 <body class="inside">
-
+<!--------------------------- small screens nav bar ------------------->
+<header>
+    <div class="background"></div>
+    <nav role="small_nav">
+        <div class="container_header">
+            <div class="smallnav_logo">
+                <a href="index.html"> <img src="img/logo.png"> </a>
+            </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                    <a href="index_about.html"><li>About</li></a> 
+                    <a href="index_services.html"><li>Services</li></a>
+                    <a href="index_careers.html"><li>Careers</li></a>
+                    <a href="index_connect.html"><li>Connect</li></a>
+                    <a href="index_quote.html" class="quote"> <li>Quote</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
  <!---------------------------  global nav bar ------------------->
 <header>
     <div class="background"></div>
     <nav class="global_nav">
-        <div class="container">
+        <div class="container_header">
             <div class="logo">
                 <a href="index.html"> <img src="img/logo.png"> </a>
             </div>
@@ -49,12 +73,9 @@
             <h1 class="inside_header"> connect with us </h1>
         </div>
     </div>
+    <hr class="hr_header">
     <div class="image_container">
-        <image>
-            <source media="(min-width:1024px)" srcset="img/jared-murray-NSuufgf-BME-unsplash.jpg">
-            <source media="(min-width:460px)" srcset="img/jared-murray-NSuufgf-BME-unsplash.jpg">
-            <img src="img/jared-murray-NSuufgf-BME-unsplash.jpg" alt="Connect" style="width:auto;">
-        </image>
+        <img src="img/jared-murray-NSuufgf-BME-unsplash.jpg" alt="Connect" style="width:auto;">
     </div>  
     <h3 class="pull_quote">
         <i>With Trinity, always expect <b>reliable</b> and <b>personal</b> support.</i>
@@ -65,11 +86,11 @@
     <div class="image_container_two">
         <img src="img/burst-kUqqaRjJuw0-unsplash.jpg" alt="Connect with Us"> 
     </div>
-    <svg class="rectangle" width="620" height="400">
-        <rect width="620" height="400" style="fill:#292d76;stroke-width:3;stroke:#292d76" />
+    <svg class="rectangle" width="100%" height="100%">
+        <rect width="100%" height="100%" style="fill:#292d76;stroke-width:3;stroke:#292d76" />
     </svg> 
     <h3 class="secondary_header"> Connect With Us </h3>
-    <div class="contact">
+    <div class="contact_connectpage">
         <h4 style="font-size: 20px; color: #292d76; margin-top: 30px; margin-bottom: 10px;">CONTACT</h4>
         <p style= "margin: 0;"> <i> Hours </i></p>
         <p style= "margin-top: 0;"> Mon-Sat: 9:00AM – 5:00PM</p>
@@ -77,7 +98,7 @@
         <a href="tel: +9106798038" target="_blank" style="margin: 0; color: #3e3e3e;">US: 910-679-8038</a> <br>
         <a href="tel: +9102026492" target="_blank" style="margin: 0; color: #3e3e3e;">FAX: 910-202-6492</a>
         <p style= "margin-bottom: 0;"> <i> Emails </i></p>
-        <a href="mailto: operations@trinityshipping.com" target="_blank" style="margin: 0; color: #3e3e3e;"> operations@trinityshipping.com </a>
+        <a href="mailto: operations@trinityshipping.com" target="_blank" style="margin: 0; color: #3e3e3e;"> operations@trinityshipping.com </a><br>
         <a href="mailto: leejones@trinityshipping.com" target="_blank" style="margin-top: 0; color: #3e3e3e;"> leejones@trinityshipping.com </a>
     </div>   
     <div class="contact_form">
@@ -98,15 +119,15 @@
         </form>
     </div> 
 </div>
-<!--------------------------- footer ------------------->
-<footer>
+<!---------------- FOOTER ---------------->   
+<footer class="global_footer">
     <div class="container_grey">
         <div class="logo_footer"> 
             <h2 style="font-size: 20px; font-weight: bold; text-transform: uppercase;">Trinity <br> Shipping <br> Company</h2> 
         </div>
         <div class="footer_location">
             <p class="footer_links"> <b>OFFICES</b><br>
-            <br>1 Stone Street <br> Wrightsville Beach, NC 28480 </p>
+            <br>1316 Airlie Road <br> Wilmington, NC 28403 </p>
         </div>
         <div class="footer_contact">
             <p class="footer_links"> <b>CONTACT</b><br><br>
@@ -128,6 +149,24 @@
                 <li style="padding-bottom: 10px;"> <a href="index_careers.html"> CAREERS </a></li>
                 <li> <a href="index_connect.html"> CONNECT </a></li>
             </ul>
+        </div>
+    </div>  
+</footer>
+<!---------------- SMALL SCREEN FOOTER ---------------->   
+<footer class="small_footer">
+    <div class="container_grey">
+        <div class="logo_small_footer"> 
+            <h2>Trinity <br> Shipping <br> Company</h2> 
+        </div>
+        <div class="footer_contact">
+            <p style="font-size: 18px;"><b>CONTACT US</b></p>
+            <p class="footer_links"> <a href="tel: +9106798038" target="_blank">US: 910-679-8038</a><br>
+            <a href="tel: +9102026492" target="_blank">FAX: 910-202-6492</a>
+            </p>
+            <p> 1316 Airlie Road <br> Wilmington, NC 28403 </p>
+        </div>
+        <div class="quote_button">
+            <a href="index_quote.html"> <span>REQUEST A QUOTE</span> </a>
         </div>
     </div>  
 </footer>

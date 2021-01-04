@@ -20,12 +20,36 @@
 
 </head>
 <body class="inside">
-
+<!--------------------------- small screens nav bar ------------------->
+<header>
+    <div class="background"></div>
+    <nav role="small_nav">
+        <div class="container_header">
+            <div class="smallnav_logo">
+                <a href="index.html"> <img src="img/logo.png"> </a>
+            </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="menu">
+                    <a href="index_about.html"><li>About</li></a> 
+                    <a href="index_services.html"><li>Services</li></a>
+                    <a href="index_careers.html"><li>Careers</li></a>
+                    <a href="index_connect.html"><li>Connect</li></a>
+                    <a href="index_quote.html" class="quote"> <li>Quote</li></a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
  <!---------------------------  global nav bar ------------------->
 <header>
     <div class="background"></div>
     <nav class="global_nav">
-        <div class="container">
+        <div class="container_header">
             <div class="logo">
                 <a href="index.html"> <img src="img/logo.png"> </a>
             </div>
@@ -49,12 +73,9 @@
             <h1 class="inside_header"> main services </h1>
         </div>
     </div>
+    <hr class="hr_header">
     <div class="image_container">
-        <image>
-            <source media="(min-width:1024px)" srcset="img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg">
-            <source media="(min-width:460px)" srcset="img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg">
-            <img src="img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg" alt="Services" style="width:auto;">
-        </image>
+        <img src="img/chuttersnap-9cCeS9Sg6nU-unsplash.jpg" alt="Services" style="width:auto;">
     </div> 
 </div>
 <div class="container_two">
@@ -92,15 +113,15 @@
     </div>
     <div class="mask_footer"></div>
 </div>
-<!--------------------------- footer ------------------->
-<footer>
+<!---------------- FOOTER ---------------->   
+<footer class="global_footer">
     <div class="container_grey">
         <div class="logo_footer"> 
             <h2 style="font-size: 20px; font-weight: bold; text-transform: uppercase;">Trinity <br> Shipping <br> Company</h2> 
         </div>
         <div class="footer_location">
             <p class="footer_links"> <b>OFFICES</b><br>
-            <br>1 Stone Street <br> Wrightsville Beach, NC 28480 </p>
+            <br>1316 Airlie Road <br> Wilmington, NC 28403 </p>
         </div>
         <div class="footer_contact">
             <p class="footer_links"> <b>CONTACT</b><br><br>
@@ -122,6 +143,24 @@
                 <li style="padding-bottom: 10px;"> <a href="index_careers.html"> CAREERS </a></li>
                 <li> <a href="index_connect.html"> CONNECT </a></li>
             </ul>
+        </div>
+    </div>  
+</footer>
+<!---------------- SMALL SCREEN FOOTER ---------------->   
+<footer class="small_footer">
+    <div class="container_grey">
+        <div class="logo_small_footer"> 
+            <h2>Trinity <br> Shipping <br> Company</h2> 
+        </div>
+        <div class="footer_contact">
+            <p style="font-size: 18px;"><b>CONTACT US</b></p>
+            <p class="footer_links"> <a href="tel: +9106798038" target="_blank">US: 910-679-8038</a><br>
+            <a href="tel: +9102026492" target="_blank">FAX: 910-202-6492</a>
+            </p>
+            <p> 1316 Airlie Road <br> Wilmington, NC 28403 </p>
+        </div>
+        <div class="quote_button">
+            <a href="index_quote.html"> <span>REQUEST A QUOTE</span> </a>
         </div>
     </div>  
 </footer>
