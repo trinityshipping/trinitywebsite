@@ -1,22 +1,20 @@
-# web1-basic
-
-Starter files for intro web design/development
-
-STUDENTS: edit this file. Add text that describes your project. Include your name, web address, code/image citations, and any notes.
-
-
-
 ***
+
+This folder contains the code for the Trinity Shipping Company official website. 
 
 ### About this folder
 
-Put the files that you would upload to a webserver in this folder. InDesign, Illustrator, Photoshop, Sketch, and Figma files do not belong here, nor do original high-resolution images.
+This project was created using Brackets, with elements of HTML5 and CSS Grid.
 
-### More on the web1-basic starter project
+### Table of Contents
 
-Original project compiled by [David Ramos](http://imaginaryterrain.com).
+Home
+About
+Services
+Careers
+Connect
+Quote
 
-The code structure is designed for clarity rather than for browser performance. (Notably, we break CSS out into several files, to help keep code organized.)
+### Credits
 
-This project includes elements from HTML5 Boilerplate (see css/vendor/h5bp_README.md for more).
-
+Isabel Capodanno <izcapodanno@gmail.com>
